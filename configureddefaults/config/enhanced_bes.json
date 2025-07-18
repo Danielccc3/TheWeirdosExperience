@@ -1,0 +1,21 @@
+{
+  "renderEnhancedChests": false,
+  "renderEnhancedSigns": false,
+  "renderEnhancedBells": false,
+  "renderEnhancedBeds": false,
+  "renderEnhancedShulkerBoxes": false,
+  "renderEnhancedDecoratedPots": true,
+  "chestAO": false,
+  "signAO": false,
+  "bellAO": true,
+  "bedAO": false,
+  "shulkerBoxAO": false,
+  "decoratedPotAO": false,
+  "experimentalChests": true,
+  "experimentalBeds": true,
+  "experimentalSigns": true,
+  "forceResourcePackCompat": false,
+  "forceMFAPICompat": false,
+  "christmasChests": "ALLOWED",
+  "signTextRendering": "SMART"
+}
