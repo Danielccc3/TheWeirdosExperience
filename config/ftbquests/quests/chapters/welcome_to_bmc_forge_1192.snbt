@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_bmc_forge_1192"
+	group: ""
+	icon: "minecraft:book"
+	id: "76538E079A15ED90"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong!"
+				""
+				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:book"
+				tag: {
+					Enchantments: [{
+						id: "aqua_affinity"
+						lvl: 1
+					}]
+				}
+			}
+			id: "3912BCAD23DAD703"
+			rewards: [{
+				count: 3
+				id: "3355ADF5956BD6C0"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "To start the tutorial, click on this quest and read the description."
+			tasks: [{
+				id: "2D5BB377022CB269"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&eWelcome to the Weirdos Experience!"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3912BCAD23DAD703"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
+				""
+				"To the left of the inventory screen, under the pickaxe icon, you can access your &9&lArcs&r."
+				""
+				"This is a feature from the &9Blue Skies&r mod. You can obtain &9&lArcs&r by opening lootbags that drop from bosses in the &9Everbright&r and &8Everdawn&r dimensions."
+				""
+				""
+				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
+				""
+				"To access your &8Curios&r slots, click the &8Curios&r button at the top right of your inventory skin preview."
+				""
+				"Items from &eThe Aether&r can be equipped into special &eAether&r slots, which can be accessed via the &f&lCloud&r button at the bottom of the inventory skin preview."
+				""
+				"Try equipping the &6Lantern &rfrom the quest reward in your Curios Belt slot!"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "1D7EAFB739CCFD56"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "474C5312DB57B8B5"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [
+				{
+					id: "7BB8EFF8C7E5A1BE"
+					title: "Click me!"
+					type: "checkmark"
+				}
+				{
+					id: "32617387D46CE844"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "&2Inventory"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3912BCAD23DAD703"]
+			description: [
+				"&9Tasks &rare things that need to be done to complete a quest. If a task is an item, clicking on it will show its recipe."
+				""
+				"&6Rewards &rare what you get after completing all &9Tasks&r. Click to claim."
+				""
+				"The pin icon at the top right will pin a quest to your screen."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/item/book.png"
+				}
+			}
+			id: "155C060B7287108A"
+			invisible_until_tasks: 1
+			rewards: [{
+				count: 3
+				id: "5A20D5250984D53D"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [
+				{
+					id: "294110D029C8E776"
+					title: "Quests"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "25F1BEA99BE695A9"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "&6Quests"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D7EAFB739CCFD56"]
+			description: [
+				"At the bottom of the inventory, you may have noticed a search bar."
+				""
+				"This is the &dJust Enough Items&r, or &dJEI&r, search bar. "
+				""
+				"Typing into the search bar will show items that match your search phrase."
+				""
+				"If you type &eWood&r, the &dJEI &ritem list at the right of the screen will show all items with &eWood&r in the name or tooltip."
+				""
+				"Searching &eSlot: Wrist&r will display all items that fit into your Wrist accessory slot."
+				""
+				"Adding a &c@&r at the start of the search query will show the items from a specific mod, for example &e@Handcrafted&r"
+				""
+				"You can also search based on an item's tag, such as &e#Wood&r, which will show all items with the &eWood tag&r."
+				""
+				"To favorite an item, press &bA &rwhile hovering over it in the &dJEI &ritem list."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:spyglass"
+			id: "26A341102F3C2666"
+			rewards: [{
+				id: "7082961FBE9999C9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "62982118236D1BE8"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&bJust Enough Items (JEI)"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26A341102F3C2666"]
+			description: [
+				"The tutorial is now &afinished&r! "
+				""
+				"&l&aMORE QUESTS!&a&l &f&rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page where the arrow is."
+				""
+				""
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/check.png"
+				}
+			}
+			id: "04C88B3484E3CC7C"
+			rewards: [{
+				id: "08216BA8990B2085"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "7825090896199995"
+				title: "&aTutorial Complete!"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+	]
+	title: " &dTutorial"
+}

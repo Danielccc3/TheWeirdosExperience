@@ -1,0 +1,163 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "5EC606153AA8CA77"
+	icon: "minecraft:chest"
+	id: "057A5A3DCD793460"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "17EAD5139988ADA1"
+			rewards: [{
+				id: "0B556A8A172E300C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Place these next to containers (Barrels, chests, etc) to give the network access to its insides!"
+			tasks: [{
+				id: "6C68846C604FA2A8"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			title: "Create a Inventory Connector"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17EAD5139988ADA1"]
+			id: "759A8C95F265835C"
+			rewards: [{
+				count: 5
+				id: "667212A9118239D4"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			subtitle: "Create Cables to connect to the inventory connector"
+			tasks: [{
+				id: "12874F5AFF04B1CF"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			title: "Create Cables"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["759A8C95F265835C"]
+			id: "6B20CE26D2600EFD"
+			rewards: [{
+				id: "3CFC32720A9E3013"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Use this to connect the cables to things like Terminals!"
+			tasks: [{
+				id: "23BADF87D1E40634"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			title: "Create a cable connector"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B20CE26D2600EFD"]
+			id: "03C5E20F32A50150"
+			rewards: [
+				{
+					id: "289B31D8C50D2432"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "57F9BE252E975072"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Create a storage terminal to access the inventories!"
+			tasks: [{
+				id: "25DDAE5658748DF9"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			title: "Create a storage terminal"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03C5E20F32A50150"]
+			id: "40AFB129DF8B0E2D"
+			rewards: [
+				{
+					id: "76C796F156D567CE"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "06281C522FFDF7EA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Create a crafting terminal to both access the inventory network and craft stuff!"
+			tasks: [{
+				id: "267B18AC1965D0CD"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			title: "Create a Crafting terminal"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40AFB129DF8B0E2D"]
+			id: "771503C43B90C961"
+			rewards: [
+				{
+					id: "44C418AD9A66E922"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "2231C286F4B068F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "This Wireless Terminal can access an existent terminal! Add a beacon next to the terminal to be able to access its contents from any place in the world! Upgrade the Beacon further to access the terminal in any dimension!"
+			tasks: [{
+				id: "76FD095539EA00E2"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			title: "Create a Advanced Wireless Terminal!"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["771503C43B90C961"]
+			id: "07459F64297AA682"
+			optional: true
+			rewards: [{
+				id: "0866CC67E417C2EF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "With a level two Beacon, if you put it next to a Terminal, you'll be able to access that Terminal through the Advanced Wireless Terminall anywhere in the world! Upgrade the Beacon to level 4 and you'll be able to access that Terminal from any dimension!"
+			tasks: [{
+				id: "609B6A2A498727A7"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "Craft a Beacon"
+			x: 9.0d
+			y: 2.0d
+		}
+	]
+	title: " &3Storage"
+}

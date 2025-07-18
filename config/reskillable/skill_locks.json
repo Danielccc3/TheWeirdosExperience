@@ -1,0 +1,591 @@
+{
+  "skillLocks": {
+    "minecraft:iron_sword": [
+      "attack:5"
+    ],
+    "minecraft:iron_shovel": [
+      "gathering:5"
+    ],
+    "minecraft:iron_pickaxe": [
+      "mining:5"
+    ],
+    "minecraft:iron_axe": [
+      "gathering:5"
+    ],
+    "minecraft:iron_hoe": [
+      "farming:5"
+    ],
+    "minecraft:iron_helmet": [
+      "defense:5"
+    ],
+    "minecraft:iron_chestplate": [
+      "defense:5"
+    ],
+    "minecraft:iron_leggings": [
+      "defense:5"
+    ],
+    "minecraft:iron_boots": [
+      "defense:5"
+    ],
+    "minecraft:diamond_sword": [
+      "attack:15"
+    ],
+    "minecraft:diamond_shovel": [
+      "gathering:15"
+    ],
+    "minecraft:diamond_pickaxe": [
+      "mining:15"
+    ],
+    "minecraft:diamond_axe": [
+      "gathering:15"
+    ],
+    "minecraft:diamond_hoe": [
+      "farming:15"
+    ],
+    "minecraft:diamond_helmet": [
+      "defense:15"
+    ],
+    "minecraft:diamond_chestplate": [
+      "defense:15"
+    ],
+    "minecraft:diamond_leggings": [
+      "defense:15"
+    ],
+    "minecraft:diamond_boots": [
+      "defense:15"
+    ],
+    "minecraft:netherite_sword": [
+      "attack:30"
+    ],
+    "minecraft:netherite_shovel": [
+      "gathering:30"
+    ],
+    "minecraft:netherite_pickaxe": [
+      "mining:30"
+    ],
+    "minecraft:netherite_axe": [
+      "gathering:30"
+    ],
+    "minecraft:netherite_hoe": [
+      "farming:30"
+    ],
+    "minecraft:netherite_helmet": [
+      "defense:30"
+    ],
+    "minecraft:netherite_chestplate": [
+      "defense:30"
+    ],
+    "minecraft:netherite_leggings": [
+      "defense:30"
+    ],
+    "minecraft:netherite_boots": [
+      "defense:30"
+    ],
+    "flying_stuff:automaton_sword": [
+      "attack:5"
+    ],
+    "flying_stuff:igneus_war_axe": [
+      "attack:5"
+    ],
+    "flying_stuff:pharaoh_staff": [
+      "magic:25"
+    ],
+    "flying_stuff:ice_staff": [
+      "magic:25"
+    ],
+    "ad_astra:jet_suit": [
+      "defense:35"
+    ],
+    "ad_astra:space_helmet": [
+      "defense:20"
+    ],
+    "ad_astra:netherite_space_pants": [
+      "defense:30"
+    ],
+    "ad_astra:netherite_space_suit": [
+      "defense:30"
+    ],
+    "ad_astra:jet_suit_boots": [
+      "defense:35"
+    ],
+    "ad_astra:space_boots": [
+      "defense:20"
+    ],
+    "ad_astra:netherite_space_boots": [
+      "defense:30"
+    ],
+    "ad_astra:jet_suit_pants": [
+      "defense:35"
+    ],
+    "ad_astra:netherite_space_helmet": [
+      "defense:30"
+    ],
+    "ad_astra:space_pants": [
+      "defense:20"
+    ],
+    "ad_astra:space_suit": [
+      "defense:20"
+    ],
+    "ad_astra:jet_suit_helmet": [
+      "defense:35"
+    ],
+    "aether:valkyrie_pickaxe": [
+      "mining:30"
+    ],
+    "aether:gravitite_pickaxe": [
+      "mining:30"
+    ],
+    "aether:gravitite_hoe": [
+      "farming:30"
+    ],
+    "aether:phoenix_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "aether:obsidian_chestplate": [
+      "defense:30"
+    ],
+    "aether:skyroot_sword": [
+      "attack:5"
+    ],
+    "aether:obsidian_leggings": [
+      "defense:30"
+    ],
+    "aether:zanite_shovel": [
+      "gathering:15"
+    ],
+    "aether:cloud_staff": [
+      "magic:25"
+    ],
+    "aether:lightning_sword": [
+      "attack:15"
+    ],
+    "aether:valkyrie_axe": [
+      "gathering:30"
+    ],
+    "aether:valkyrie_shovel": [
+      "gathering:30"
+    ],
+    "aether:phoenix_helmet": [
+      "defense:20"
+    ],
+    "aether:zanite_pickaxe": [
+      "mining:15"
+    ],
+    "aether:gravitite_sword": [
+      "attack:15"
+    ],
+    "aether:obsidian_boots": [
+      "defense:30"
+    ],
+    "aether:gravitite_helmet": [
+      "defense:20"
+    ],
+    "aether:holystone_pickaxe": [
+      "mining:5"
+    ],
+    "aether:valkyrie_hoe": [
+      "farming:30"
+    ],
+    "aether:holy_sword": [
+      "attack:15"
+    ],
+    "aether:phoenix_leggings": [
+      "defense:20"
+    ],
+    "aether:phoenix_boots": [
+      "defense:20"
+    ],
+    "aether:sentry_boots": [
+      "defense:20"
+    ],
+    "aether:skyroot_hoe": [
+      "farming:5"
+    ],
+    "aether:zanite_sword": [
+      "attack:5"
+    ],
+    "aether:candy_cane_sword": [
+      "attack:5"
+    ],
+    "aether:holystone_hoe": [
+      "farming:5"
+    ],
+    "aether:gravitite_axe": [
+      "gathering:30"
+    ],
+    "aether:zanite_hoe": [
+      "farming:15"
+    ],
+    "aether:pig_slayer": [
+      "attack:5"
+    ],
+    "aether:valkyrie_boots": [
+      "defense:20"
+    ],
+    "aether:zanite_boots": [
+      "defense:20"
+    ],
+    "aether:valkyrie_lance": [
+      "attack:15"
+    ],
+    "aether:holystone_axe": [
+      "gathering:5"
+    ],
+    "aether:valkyrie_chestplate": [
+      "defense:20"
+    ],
+    "aether:holystone_sword": [
+      "attack:5"
+    ],
+    "aether:zanite_chestplate": [
+      "defense:20"
+    ],
+    "aether:neptune_leggings": [
+      "defense:20"
+    ],
+    "aether:flaming_sword": [
+      "attack:15"
+    ],
+    "aether:gravitite_boots": [
+      "defense:20"
+    ],
+    "aether:skyroot_pickaxe": [
+      "mining:5"
+    ],
+    "aether:gravitite_shovel": [
+      "gathering:30"
+    ],
+    "aether:skyroot_axe": [
+      "gathering:5"
+    ],
+    "aether:skyroot_shovel": [
+      "gathering:5"
+    ],
+    "aether:neptune_chestplate": [
+      "defense:20"
+    ],
+    "aether:zanite_leggings": [
+      "defense:20"
+    ],
+    "aether:hammer_of_kingbdogz": [
+      "attack:5"
+    ],
+    "aether:neptune_boots": [
+      "defense:20"
+    ],
+    "aether:gravitite_leggings": [
+      "defense:20"
+    ],
+    "aether:holystone_shovel": [
+      "gathering:5"
+    ],
+    "aether:zanite_axe": [
+      "gathering:15"
+    ],
+    "aether:phoenix_chestplate": [
+      "defense:20"
+    ],
+    "aether:vampire_blade": [
+      "attack:15"
+    ],
+    "aether:zanite_helmet": [
+      "defense:20"
+    ],
+    "aether:neptune_helmet": [
+      "defense:20"
+    ],
+    "aether:gravitite_chestplate": [
+      "defense:20"
+    ],
+    "aether:valkyrie_helmet": [
+      "defense:20"
+    ],
+    "aether:obsidian_helmet": [
+      "defense:30"
+    ],
+    "aether:valkyrie_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:diamond_minotaur_axe": [
+      "gathering:30"
+    ],
+    "twilightforest:giant_sword": [
+      "attack:30"
+    ],
+    "twilightforest:fiery_chestplate": [
+      "defense:20"
+    ],
+    "twilightforest:ice_sword": [
+      "attack:15"
+    ],
+    "twilightforest:ironwood_axe": [
+      "gathering:15"
+    ],
+    "twilightforest:steeleaf_shovel": [
+      "gathering:30"
+    ],
+    "twilightforest:knightmetal_pickaxe": [
+      "mining:30"
+    ],
+    "twilightforest:arctic_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:knightmetal_boots": [
+      "defense:20"
+    ],
+    "twilightforest:fiery_boots": [
+      "defense:20"
+    ],
+    "twilightforest:arctic_chestplate": [
+      "defense:20"
+    ],
+    "twilightforest:yeti_leggings": [
+      "defense:30"
+    ],
+    "twilightforest:glass_sword": [
+      "attack:30"
+    ],
+    "twilightforest:ironwood_chestplate": [
+      "defense:20"
+    ],
+    "twilightforest:seeker_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "twilightforest:ironwood_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:steeleaf_hoe": [
+      "farming:30"
+    ],
+    "twilightforest:fiery_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:ironwood_boots": [
+      "defense:20"
+    ],
+    "twilightforest:phantom_helmet": [
+      "defense:30"
+    ],
+    "twilightforest:knightmetal_sword": [
+      "attack:15"
+    ],
+    "twilightforest:ice_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "twilightforest:steeleaf_boots": [
+      "defense:20"
+    ],
+    "twilightforest:phantom_chestplate": [
+      "defense:30"
+    ],
+    "twilightforest:steeleaf_pickaxe": [
+      "mining:30"
+    ],
+    "twilightforest:steeleaf_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:ironwood_pickaxe": [
+      "mining:15"
+    ],
+    "twilightforest:steeleaf_helmet": [
+      "defense:20"
+    ],
+    "twilightforest:yeti_boots": [
+      "defense:30"
+    ],
+    "twilightforest:giant_pickaxe": [
+      "mining:5"
+    ],
+    "twilightforest:ender_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "twilightforest:mazebreaker_pickaxe": [
+      "mining:30"
+    ],
+    "twilightforest:knightmetal_axe": [
+      "gathering:30"
+    ],
+    "twilightforest:ironwood_hoe": [
+      "farming:15"
+    ],
+    "twilightforest:fiery_sword": [
+      "attack:15"
+    ],
+    "twilightforest:ironwood_shovel": [
+      "gathering:15"
+    ],
+    "twilightforest:fiery_helmet": [
+      "defense:20"
+    ],
+    "twilightforest:triple_bow": [
+      "agility:10",
+      "defense:5"
+    ],
+    "twilightforest:yeti_helmet": [
+      "defense:30"
+    ],
+    "twilightforest:ironwood_helmet": [
+      "defense:20"
+    ],
+    "twilightforest:steeleaf_axe": [
+      "gathering:30"
+    ],
+    "twilightforest:yeti_chestplate": [
+      "defense:30"
+    ],
+    "twilightforest:knightmetal_helmet": [
+      "defense:20"
+    ],
+    "twilightforest:gold_minotaur_axe": [
+      "gathering:5"
+    ],
+    "twilightforest:knightmetal_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:fiery_pickaxe": [
+      "mining:30"
+    ],
+    "twilightforest:ironwood_sword": [
+      "attack:5"
+    ],
+    "twilightforest:steeleaf_sword": [
+      "attack:15"
+    ],
+    "twilightforest:steeleaf_chestplate": [
+      "defense:20"
+    ],
+    "twilightforest:knightmetal_chestplate": [
+      "defense:20"
+    ],
+    "twilightforest:naga_leggings": [
+      "defense:20"
+    ],
+    "twilightforest:arctic_helmet": [
+      "defense:20"
+    ],
+    "twilightforest:naga_chestplate": [
+      "defense:20"
+    ],
+    "twilightforest:arctic_boots": [
+      "defense:20"
+    ],
+    "undergarden:utherium_shovel": [
+      "gathering:30"
+    ],
+    "undergarden:cloggrum_battleaxe": [
+      "attack:30"
+    ],
+    "undergarden:froststeel_chestplate": [
+      "defense:35"
+    ],
+    "undergarden:utherium_sword": [
+      "attack:15"
+    ],
+    "undergarden:utherium_boots": [
+      "defense:30"
+    ],
+    "undergarden:cloggrum_pickaxe": [
+      "mining:15"
+    ],
+    "undergarden:masticated_chestplate": [
+      "defense:20"
+    ],
+    "undergarden:froststeel_sword": [
+      "attack:5"
+    ],
+    "undergarden:utherium_helmet": [
+      "defense:30"
+    ],
+    "undergarden:cloggrum_axe": [
+      "gathering:15"
+    ],
+    "undergarden:froststeel_helmet": [
+      "defense:35"
+    ],
+    "undergarden:forgotten_shovel": [
+      "gathering:30"
+    ],
+    "undergarden:forgotten_battleaxe": [
+      "attack:30"
+    ],
+    "undergarden:froststeel_hoe": [
+      "farming:15"
+    ],
+    "undergarden:utherium_axe": [
+      "gathering:30"
+    ],
+    "undergarden:forgotten_pickaxe": [
+      "mining:30"
+    ],
+    "undergarden:utherium_leggings": [
+      "defense:30"
+    ],
+    "undergarden:froststeel_leggings": [
+      "defense:35"
+    ],
+    "undergarden:cloggrum_hoe": [
+      "farming:15"
+    ],
+    "undergarden:cloggrum_boots": [
+      "defense:20"
+    ],
+    "undergarden:cloggrum_helmet": [
+      "defense:20"
+    ],
+    "undergarden:forgotten_hoe": [
+      "farming:30"
+    ],
+    "undergarden:froststeel_axe": [
+      "gathering:15"
+    ],
+    "undergarden:forgotten_sword": [
+      "attack:15"
+    ],
+    "undergarden:cloggrum_sword": [
+      "attack:15"
+    ],
+    "undergarden:utherium_hoe": [
+      "farming:30"
+    ],
+    "undergarden:utherium_chestplate": [
+      "defense:30"
+    ],
+    "undergarden:cloggrum_chestplate": [
+      "defense:20"
+    ],
+    "undergarden:utherium_pickaxe": [
+      "mining:30"
+    ],
+    "undergarden:ancient_chestplate": [
+      "defense:20"
+    ],
+    "undergarden:froststeel_boots": [
+      "defense:35"
+    ],
+    "undergarden:froststeel_shovel": [
+      "gathering:15"
+    ],
+    "undergarden:forgotten_axe": [
+      "gathering:30"
+    ],
+    "undergarden:ancient_helmet": [
+      "defense:20"
+    ],
+    "undergarden:ancient_leggings": [
+      "defense:20"
+    ],
+    "undergarden:cloggrum_shovel": [
+      "gathering:15"
+    ],
+    "undergarden:cloggrum_leggings": [
+      "defense:20"
+    ],
+    "undergarden:froststeel_pickaxe": [
+      "mining:15"
+    ]
+  }
+}

@@ -1,0 +1,462 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space"
+	group: "5BBB507BE497896B"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
+	id: "2B264FC43A13628A"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "78FE0791484E7973"
+			rewards: [{
+				id: "0A6881BF151AD830"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Create a Coal Generator!"
+			tasks: [{
+				id: "377315872DCB9FC1"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B1C676DCA367C8F"]
+			id: "7833BF906752F397"
+			rewards: [
+				{
+					id: "6720F30BF324A636"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "05021893A8B4CBF6"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Create a Etrionic Blast Furnace!"
+			tasks: [{
+				id: "675B00C566AE19A8"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78FE0791484E7973"]
+			id: "1B1C676DCA367C8F"
+			rewards: [{
+				id: "57CB2F79644F9C51"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "637EA86E4DD72BB1"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7833BF906752F397"]
+			id: "34A9BD4282F7F7D9"
+			rewards: [{
+				id: "57CFF5DED16FD0B4"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			subtitle: "Create a Nasa Workbench to Craft a rocket!"
+			tasks: [{
+				id: "2C373E391B69B5C1"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4472CF7D7AE864EF"]
+			id: "48866ADB21870C34"
+			rewards: [{
+				id: "382EF97BF31AC9E5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Create a space suit!"
+			tasks: [
+				{
+					id: "45F9219B18D17531"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "004648775ED8E77A"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "755B76B99F6A8B22"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54F0A12AE0E827E3"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34A9BD4282F7F7D9"]
+			id: "469D889D08E215BB"
+			rewards: [
+				{
+					id: "699ED1DF2ED394A6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1E5F632E31043D15"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Create a rocket!"
+			tasks: [{
+				id: "0360837B7E772676"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B1C676DCA367C8F"]
+			id: "4472CF7D7AE864EF"
+			rewards: [{
+				id: "234A970E011255D5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "03FDA8F968E4DEA6"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34A9BD4282F7F7D9"]
+			id: "13FF27F33C88BBBC"
+			rewards: [{
+				id: "0EE18E0B07E2C838"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Create a Launch Pad"
+			tasks: [{
+				id: "6AFB61892D3940EC"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48866ADB21870C34"]
+			id: "440130B7A4867E55"
+			rewards: [{
+				id: "15B51F2497C2F3E7"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "Get a better space suit!"
+			tasks: [
+				{
+					id: "443CAD539AF4C8DE"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "127D039EFA626F0A"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "710A6453ABDD9428"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C784F865D0BF061"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Space Suit"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4472CF7D7AE864EF"]
+			id: "3B71ACE2ACA7A430"
+			rewards: [{
+				id: "3789B708B5724596"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Create a Oxygen Can"
+			tasks: [{
+				id: "6DF481A768B91DD3"
+				item: {
+					Count: 1
+					id: "ad_astra_giselle_addon:oxygen_can"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["469D889D08E215BB"]
+			icon: "ad_astra:moon_globe"
+			id: "39CE2E985A685ED3"
+			rewards: [
+				{
+					id: "295D4757A0337D31"
+					item: "ad_astra:moon_globe"
+					type: "item"
+				}
+				{
+					id: "0AC55646989183CE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "VISIT THE MOON! (Careful, eggman likes that place)"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "104DF5AA19A2AE2F"
+				type: "dimension"
+			}]
+			title: "THE MOON!!!"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["469D889D08E215BB"]
+			icon: "ad_astra:earth_globe"
+			id: "5275A56435B5857E"
+			rewards: [
+				{
+					id: "748E57DE9B3801BE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5F6D3240F2D08B1B"
+					item: "ad_astra:earth_globe"
+					type: "item"
+				}
+			]
+			subtitle: "The earth, so nice"
+			tasks: [{
+				dimension: "ad_astra:earth_orbit"
+				id: "7913E0A5A38C8BD4"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["469D889D08E215BB"]
+			id: "61E4AA0949812A0B"
+			rewards: [{
+				id: "6BE07A412DD18A58"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Get a tier 2 rocket!"
+			tasks: [{
+				id: "248A1D32B18F4CF4"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Upgrade your rocket!"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["61E4AA0949812A0B"]
+			id: "4EE094FB029F9152"
+			rewards: [{
+				id: "63D3D8F7CC3B7451"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "Get a tier 3 Rocket!"
+			tasks: [{
+				id: "53006C9F95022014"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4EE094FB029F9152"]
+			id: "64F21C0992E55AC7"
+			rewards: [{
+				id: "2B2ADC7DBDF26291"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Get a Tier 4 Rocket!"
+			tasks: [{
+				id: "457BA6E5A687DD04"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["469D889D08E215BB"]
+			icon: "ad_astra:mars_globe"
+			id: "48104873E0D4AC2C"
+			rewards: [
+				{
+					id: "30B35A1ED01B357E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4CD829C67E32E3DD"
+					item: "ad_astra:mars_globe"
+					type: "item"
+				}
+			]
+			subtitle: "Visit Mars!"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "233BFDED288EBD8D"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["469D889D08E215BB"]
+			icon: "ad_astra:mercury_globe"
+			id: "04EF85AC386BC243"
+			rewards: [
+				{
+					id: "1A8B3931B455AF03"
+					item: "ad_astra:mercury_globe"
+					type: "item"
+				}
+				{
+					id: "28A2E3F093D19A2E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Visit mercury!"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "500D0285BFE35B3F"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+	]
+	title: "&3&l The Space"
+}

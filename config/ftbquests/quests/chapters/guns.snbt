@@ -1,0 +1,423 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guns"
+	group: "5EC606153AA8CA77"
+	icon: {
+		Count: 1
+		id: "jeg:assault_rifle"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "76ABF860B16CE6B2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "jeg:assault_rifle"
+				tag: {
+					AmmoCount: 30
+					Damage: 0
+				}
+			}
+			id: "6101D38604DFEDFB"
+			rewards: [{
+				count: 10
+				id: "0D9E43E69377712E"
+				item: "jeg:scrap"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Learn how to build and use modular firearms! Craft barrels, receivers, and ammo to create your own weapons.Each part matters — choose wisely and shoot precisely!"
+			tasks: [{
+				id: "102F7149F43DA065"
+				title: "Guns"
+				type: "checkmark"
+			}]
+			title: "Welcome to Just Enough Guns!"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6101D38604DFEDFB"]
+			id: "4D4E170573014435"
+			rewards: [{
+				count: 5
+				id: "1A84A9695A4EA013"
+				item: "jeg:tech_trash"
+				type: "item"
+			}]
+			subtitle: "This bench is necessary to make most of the things related to guns!"
+			tasks: [{
+				id: "42A8AE7A09B988B5"
+				item: "jeg:scrap_workbench"
+				type: "item"
+			}]
+			title: "Craft a Scrap Workbench"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D4E170573014435"]
+			id: "7FFD218A3ABCC16F"
+			rewards: [
+				{
+					id: "79A68CDED24A3311"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "237F4A104314E5D5"
+					item: "jeg:scrap"
+					type: "item"
+				}
+			]
+			size: 1.3d
+			subtitle: "This will be the easiest gun to make!"
+			tasks: [{
+				id: "2142A2648CEE4764"
+				item: {
+					Count: 1
+					id: "jeg:revolver"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Revolver"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FFD218A3ABCC16F"]
+			id: "0B75AD9B2C569791"
+			rewards: [{
+				id: "312629E72AA5B071"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Obtain ammo to use with the revolver!"
+			tasks: [{
+				id: "3426156DBAADB93E"
+				item: "jeg:pistol_ammo"
+				type: "item"
+			}]
+			title: "Craft pistol Ammo"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FFD218A3ABCC16F"]
+			id: "56222A8C22C8FFE7"
+			rewards: [{
+				id: "1918AF359371B4D5"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			subtitle: "Craft a double barrel shotgun for more early gun power!"
+			tasks: [{
+				id: "0D1F4B56BC20FD65"
+				item: {
+					Count: 1
+					id: "jeg:double_barrel_shotgun"
+					tag: {
+						AmmoCount: 2
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a double barrel shotgun!"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56222A8C22C8FFE7"]
+			id: "1E1E209E3B1F85DA"
+			rewards: [{
+				id: "788A20E662BF4E48"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Craft some ammo to use on your shotguns!"
+			tasks: [{
+				id: "2D32D9B4AB25756A"
+				item: "jeg:shotgun_shell"
+				type: "item"
+			}]
+			title: "Craft Shotgun Ammo"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D4E170573014435"]
+			id: "77C6923C04D1AE5F"
+			rewards: [{
+				id: "6E65DC366D58DABF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "This Workbench will be able to craft more advanced stuff!"
+			tasks: [{
+				id: "6F7C8CF6C6EE1136"
+				item: "jeg:blueprint_workbench"
+				type: "item"
+			}]
+			title: "Craft a BluePrint Workbench"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77C6923C04D1AE5F"]
+			id: "682F268154736549"
+			rewards: [{
+				id: "5C13A3F2B243265A"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			subtitle: "With that new workbench, you can craft cooler stuff now!"
+			tasks: [{
+				id: "7EF6CEDAA2A8875C"
+				item: {
+					Count: 1
+					id: "jeg:infantry_rifle"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Infantry Rifle"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["682F268154736549"]
+			id: "0C1D47E53FC871B1"
+			rewards: [{
+				id: "177CD8850EC6B116"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Ammo that can be used with Rifles!"
+			tasks: [{
+				id: "76C521562A6515A7"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			title: "Craft some Rifle Ammo"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77C6923C04D1AE5F"]
+			id: "79A9F84261A5245B"
+			rewards: [{
+				id: "50FAB1C27A129EC2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "With this workbench, again, you'll be able to craft cooler stuff!"
+			tasks: [{
+				id: "62E7E3C33ADFFB55"
+				item: "jeg:gunnite_workbench"
+				type: "item"
+			}]
+			title: "Graft a Gunnite Workbench"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79A9F84261A5245B"]
+			id: "6AC67648B0B9F6D2"
+			rewards: [{
+				id: "71DAE3AA0343B11C"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.3d
+			subtitle: "A Scope that can be attached to some guns!"
+			tasks: [{
+				id: "05FAB2FDB2ADB741"
+				item: {
+					Count: 1
+					id: "jeg:combat_scope"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79A9F84261A5245B"]
+			id: "23C3813F6555BAB0"
+			rewards: [
+				{
+					id: "2108BC220333AA23"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "4A56B80F7630BABD"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "3D7A7708592F9EA9"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "More advanced gun stuff!"
+			tasks: [{
+				id: "6EB4CAE529795303"
+				item: "jeg:gunmetal_workbench"
+				type: "item"
+			}]
+			title: "Craft a Gunmetal Workbench"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4D4E170573014435"]
+			id: "57ED3B3FC63242C8"
+			rewards: [{
+				id: "2765CCF0E6DFCA50"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "With this, you can Recycle Weapons to get some resources!"
+			tasks: [{
+				id: "511CD7DE5014F04D"
+				item: "jeg:recycler"
+				type: "item"
+			}]
+			title: "Craft a Recycler Station"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["79A9F84261A5245B"]
+			id: "704A70EB3007B054"
+			rewards: [{
+				id: "7339FACC5D4F4381"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "You can craft this item using the Gunnite Workbench!"
+			tasks: [{
+				id: "3EE5427904C8A7C0"
+				item: "jeg:schematic_station"
+				type: "item"
+			}]
+			title: "Craft a Schematic Station"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6101D38604DFEDFB"]
+			id: "5CE92EA490B37906"
+			optional: true
+			rewards: [{
+				id: "6DCA41DF213B404A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Get a Trumpet from a Skeleton, but, that skeleton never tried to hurt you, you monster"
+			tasks: [{
+				id: "15C188F9960482FA"
+				item: {
+					Count: 1
+					id: "jeg:trumpet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Get a Trumpet"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F4A15AB97158F31"]
+			id: "1F48DB9C1296772F"
+			rewards: [{
+				id: "2C24949763C09E37"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "octagon"
+			size: 2.2d
+			subtitle: "A very difficult boss (If you're not strong enough)"
+			tasks: [{
+				entity: "jeg:terror_phantom"
+				icon: "jeg:terror_phantom_spawn_egg"
+				id: "4098922B64E3B724"
+				title: "Defeat the Phantom Terror"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79A9F84261A5245B"]
+			id: "47A4953A8DB945A4"
+			subtitle: "Craft a Flare that can be used both like ammo or for recipes"
+			tasks: [{
+				id: "4035C0B511C6448B"
+				item: {
+					Count: 1
+					id: "jeg:flare"
+					tag: {
+						HasRaid: 0
+						display: {
+							Name: "{\"italic\":false,\"color\":\"red\",\"translate\":\"item.jeg.raid_flare\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Flare"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47A4953A8DB945A4"]
+			id: "6F4A15AB97158F31"
+			rewards: [{
+				id: "3B976EEB5ADEFAC3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A Flare that allows you to fight a Armada Raid"
+			tasks: [{
+				id: "48949DA718471875"
+				item: "jeg:terror_armada_flare"
+				type: "item"
+			}]
+			title: "Craft a Terror Armada Flare"
+			x: -2.5d
+			y: 3.0d
+		}
+	]
+	title: " &cGuns"
+}

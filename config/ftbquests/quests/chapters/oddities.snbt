@@ -1,0 +1,635 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oddities"
+	group: "5EC606153AA8CA77"
+	icon: "minecraft:nether_star"
+	id: "537C6DB0026E6B7D"
+	images: [
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 5.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4EE395F19A7AC6FF"
+			rewards: [{
+				count: 3
+				id: "505552935A899AC5"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Used to automatically &eTrade&r with nearby &6Piglins.&r Holds &6Gold ingots&r and output barter items."
+			tasks: [{
+				id: "2D4C1E2F839FD674"
+				item: "barteringstation:bartering_station"
+				type: "item"
+			}]
+			title: "Craft a &4Bartering Station"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "4989913FFC0D56C1"
+			rewards: [{
+				count: 3
+				id: "6947757EA23254ED"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Allows you to see &etrades&r with nearby &2villagers&r. Keep in mind that villagers will follow you if you have an &2emerald&r in hand, so trading halls are much easier to create!"
+			tasks: [{
+				id: "482F110C2981A7F7"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			title: "Craft a &3Trading Post"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "6EF76B3194FFE529"
+			rewards: [{
+				id: "4342DA902A95B0D8"
+				type: "xp_levels"
+				xp_levels: 9
+			}]
+			subtitle: "&3Transmutes&r any number of items into another at the cost of &aExperience.&r Explodes when broken and drops &fNether Star."
+			tasks: [{
+				id: "1F47E54ADAE5BCB5"
+				item: "alexsmobs:transmutation_table"
+				type: "item"
+			}]
+			title: "Craft &athe Transmuation Table"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "06F27C7F86FBC564"
+			rewards: [{
+				count: 8
+				id: "2BF5D9DDAEC1B924"
+				item: "minecraft:torch"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "Used to find &5End Portal Frames&r. &cIntegrated Structures&r overhauls the &8Stronghold&r, making them more vast. "
+			tasks: [{
+				id: "092337026D40809E"
+				item: {
+					Count: 1
+					id: "alexsmobs:endolocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft &bthe Endolocator"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "2FDD6172E8C2140A"
+			rewards: [{
+				id: "46BE46BF6E752A9F"
+				item: "minecraft:pufferfish_bucket"
+				type: "item"
+			}]
+			subtitle: "Used to find the world's &4Devil's Hole Chunk"
+			tasks: [{
+				id: "51D0F0965E7474D0"
+				item: {
+					Count: 1
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft &3the Strange Fish Finder"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "70A591213EFAF475"
+			rewards: [{
+				id: "1F2E3290BEB3C661"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Used as a &4Lava Surf Board&r that can jump, and is enchantable."
+			tasks: [{
+				id: "694519243F2ABB20"
+				item: {
+					Count: 1
+					id: "alexsmobs:straddleboard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft&5 the Straddleboard"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "009EC4156DE356FD"
+			rewards: [{
+				id: "48D4E0CB7E3A404E"
+				item: "waystones:warp_scroll"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Allows for easy transportation between &lany &rtwo places. Longer transport may consume &aexperience&r."
+			tasks: [{
+				id: "40816443016DB10C"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "Obtain a &6Waystone"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "5EF5597FA5520B00"
+			rewards: [{
+				id: "585CF731969C359A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Allows for easy transport on the same Y axis."
+			tasks: [{
+				icon: "elevatorid:elevator_white"
+				id: "67AB7E57F0548C2C"
+				item: "elevatorid:elevator_white"
+				title: "Any #elevatorid:elevators"
+				type: "item"
+			}]
+			title: "Craft an &eElevator"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "6861202DAEC8292E"
+			rewards: [{
+				id: "72082D2CB36D4EAF"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			subtitle: "One of three Magnum torch variants. Prevents monster spawns in a 2048 block radius."
+			tasks: [{
+				id: "2B2DDC4CC62CAA4B"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			title: "Craft a &bDiamond Magnum Torch"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "774A7FEB22BFB6BB"
+			rewards: [{
+				id: "6304F2241A2D6548"
+				item: "minecraft:book"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "By combining any enchanted item with a   &6book&r in an &7&lanvil&r, you can &5disenchant&r     it, transferring all the enchantments to the &6book&r."
+			tasks: [{
+				id: "054C08D945EBCFEB"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "Obtain an &7&lAnvil"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "5EC11571D9836A51"
+			subtitle: "You can get a Dried Ghast and hydrate him to get a happy ghast!"
+			tasks: [{
+				id: "1CFD8C7C56810177"
+				item: "vanillabackport:dried_ghast"
+				type: "item"
+			}]
+			title: "Get a Dried Ghast"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "0C1D80EAB84F927B"
+			rewards: [{
+				id: "5359C222C1A60F6C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Potato Cannons are a classic weapon to have, just remember to have suitable ammo in your inventory or this thing is useless."
+			tasks: [{
+				id: "01C2D263FCC8E19E"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "129A69AD8F5958E5"
+			rewards: [{
+				id: "170B65A039870334"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A builder's best friend, this extension is going to be handy when reaching far and is perfect for building not only aesthetically, but also machinery with practicality."
+			tasks: [{
+				id: "5335D71EC6D41327"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "36C5801E9374D9A2"
+			rewards: [{
+				id: "5E5F027D98032AFE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Create a Copper pipe to transfer items!"
+			tasks: [{
+				id: "1EDFC7147C61347A"
+				item: "quark:pipe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "41C372EF3DFAEEC8"
+			rewards: [{
+				id: "69313392D6EB2B04"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Create a Golden Hopper to Filter items!"
+			tasks: [{
+				id: "265A60850A2B5682"
+				item: "goldenhopper:golden_hopper"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+	]
+	title: " &fCuriosities&f"
+}
